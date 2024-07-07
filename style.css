@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #FFFFFF;
+}
+.navbar-one{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap:10px;
+    align-items: center;
+}
+.navbar-one__links{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    justify-content: space-between;
+}
+
+ .navbar-one__title img{
+    width: 50px;
+    border-radius: 30px;
+} 
+.navbar-one__signin input{
+    background-color: black;
+    color: white;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 30px;
+}
+.heading{
+   /* text-align: center; */
+   margin-left: 40%;
+   font-size: 30px;
+   margin-top: 50px;
+}
+.navbar-two{
+    display:flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+.search{
+    margin: 15px;
+    border: solid black 2px;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    align-items: center;
+    text-align: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.search input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.search__btn{
+    background-color: goldenrod;
+    padding: 10px;
+    border-radius: 20px;
+}
+/* section two */
+.section-two{
+    margin-left: 130px;
+    margin-top:50px;
+}
+.section-two__images{
+    display: flex;
+    gap: 10px;
+}
+.section-two__images img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+}
+/* section three */
+.secion-three{
+    margin-left: 130px;
+    margin-top:50px;
+}
+.secion-three__images{
+    display: flex;
+    gap: 10px;
+}
+.secion-three__images img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+}
+.pic{
+    width: 300px;
+    font-weight: 600;
+}
+/* section-four */
+.section-four{
+    margin-left: 130px;
+    margin-top:50px;
+}
+
+.section-four__images{
+    display: flex;
+    gap: 10px;
+}
+.section-four__images img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+}
+.pic{
+    width: 300px;
+}
+/* section-five */
+.section-five{
+    margin-left: 130px;
+    margin-top:50px;
+}
+.section-five__images{
+    display: flex;
+    gap: 10px;
+}
+.section-five__images img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+}
+.pic{
+    width: 300px;
+}
+/* section six */
+
+.section-six__items{
+    background-color: #FAF1ED;
+    width: fit-content;
+    height: 150px;
+    margin-left: 130px;
+    margin-top: 50px;
+    margin-right: 80px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    border-radius: 20px;
+}
+.section-six__items img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+}
+#btn{
+    background-color:#FFFFFF;
+    color: black;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 30px;
+}
+#btn:hover{
+    background-color: black;
+    color: #FAF1ED;
+}
+/* section seven */
+.section-seven{
+    background-color: #FAF1ED;
+    width: 100%;
+    height: fit-content;
+    margin-top: 50px;
+    padding: 20px;
+}
+.section-seven__title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.section-seven__content{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.con{
+    width: 400px;
+    font-weight: 600;
+}
+.con img{
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+}
+/* section-eight */
+.section-eight{
+    margin-left: 130px;
+    margin-top:50px;
+}
+.section-eight__images{
+    display: flex;
+    gap: 10px;
+}
+.section-eight__images img{
+    width: 300px;
+    height: 300px;
+    border-radius: 3%;
+}
+/* section-nine */
+.section-nine{
+    background-color: #F2ECF9;
+    width: fit-content;
+    height: 600px;
+    padding: 30px;
+    margin-left: 130px;
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+}
+.section-nine__desc{
+    text-align: center;
+    padding-top: 15%;
+}
+#click{
+    background-color: black;
+    color: #FAF1ED;
+    padding: 10px;
+    border-radius: 30px;
+    width: 150px;
+    font-size: medium;
+    margin-top: 10px;
+}
+.logo2{
+    width: 30px;
+    border-radius: 40px;
+}
+/* footer */
+.footer{
+    background-color: #FAF1ED;
+    width: 100%;
+    margin-top: 50px;
+}
+.footer-desc{
+    padding: 20px;
+    padding-left: 15%;
+    display: flex;
+    gap: 30px;
+}
+.footer-desc__two{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+}
+.footer-two{
+    padding: 20px;
+    padding-left: 15%;
+}
